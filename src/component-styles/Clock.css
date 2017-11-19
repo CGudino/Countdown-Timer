@@ -1,0 +1,29 @@
+@media screen and (min-width: 900px) {
+  #mid-br {
+    display: none;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 900px) {
+  #mid-br {
+    display: unset;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+#time-items {
+  font-size: 2em;
+  margin: 5% 0;
+}
+
+.time-item {
+  display: inline;
+  margin: 10px;
+}
